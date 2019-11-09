@@ -38,7 +38,7 @@ $(document).ready(function(){
     $("#pizza-size").text(pizzaSizeInput);
     $("#topping").text(pizzaToppingInput);
     $("#total").text(totalPrice);
-    $("#reciept").show();
+    $("#receipt").show();
 
   });
 });
