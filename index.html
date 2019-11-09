@@ -10,24 +10,30 @@
     <title>Pizza</title>
   </head>
   <body>
-    <form class="formGroup">
-      <input type="text" id="personName">
+    <div class="container">
+      <h2>Choose your pizza and topping!</h2>
+      <form class="formGroup">
+        <input type="text" id="personName">
+        <br>
+        <br>
+        <input type="radio" name="pizza" value="small">Small<br>
+        <input type="radio" name="pizza" value="medium">Medium<br>
+        <input type="radio" name="pizza" value="large">Large<br>
+        <br>
+        <br>
+        <input type="radio" name="topping" value="Pepperoni">Pepperoni<br>
+        <input type="radio" name="topping" value="Peppers">Peppers<br>
+        <input type="radio" name="topping" value="Cheese">Cheese<br>
+        <input type="radio" name="topping" value="Fish">Fish<br>
+        <br>
+        <br>
+        <button type="submit" name="button">order up.</button>
+      </form>
       <br>
-      <input type="radio" name="pizza" value="small">Small<br>
-      <input type="radio" name="pizza" value="medium">Medium<br>
-      <input type="radio" name="pizza" value="large">Large<br>
       <br>
-      <input type="radio" name="topping" value="Pepperoni">Pepperoni<br>
-      <input type="radio" name="topping" value="Peppers">Peppers<br>
-      <input type="radio" name="topping" value="Cheese">Cheese<br>
-      <input type="radio" name="topping" value="Fish">Fish<br>
 
-      <br>
-      <button type="submit" name="button">order up.</button>
-    </form>
-
-    <p id="reciept">Hello! <span id="person-name"></span> thank your for your order of a <span id="pizza-size"></span> pizza with <span id="topping"></span> on top!
-    <strong>Your Total is</strong> $<span id="total"></span>. </p>
-
+      <p id="reciept">Hello! <span id="person-name"></span> thank your for your order of a <span id="pizza-size"></span> pizza with <span id="topping"></span> on top!
+      <strong>Your Total is</strong> $<span id="total"></span>. </p>
+    </div>
   </body>
 </html>

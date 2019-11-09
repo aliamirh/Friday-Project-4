@@ -1,3 +1,5 @@
+//----------Buisness Logic----------------
+
 Pizza = function(personName, size, topping){
   this.personName = personName;
   this.size = size;
