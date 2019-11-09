@@ -13,29 +13,21 @@
     <form class="formGroup">
       <input type="text" id="personName">
       <br>
-      <input type="radio" name="pizza" value="Small">Small<br>
-      <input type="radio" name="pizza" value="Medium">Medium<br>
-      <input type="radio" name="pizza" value="Large">Large<br>
+      <input type="radio" name="pizza" value="small">Small<br>
+      <input type="radio" name="pizza" value="medium">Medium<br>
+      <input type="radio" name="pizza" value="large">Large<br>
       <br>
       <input type="radio" name="topping" value="Pepperoni">Pepperoni<br>
       <input type="radio" name="topping" value="Peppers">Peppers<br>
       <input type="radio" name="topping" value="Cheese">Cheese<br>
-      <input type="radio" name="topping" value="Vegan">Vegan<br>
-      <!-- <label class="container">Pepperoni
-      <input type="checkbox" name="topping" value="Pepperoni">
-      </label>
-      <label class="container">Peppers
-      <input type="checkbox" name="topping" value="Peppers">
-      </label>
-      <label class="container">Cheese
-      <input type="checkbox" name="topping" value="Cheese">
-      </label>
-      <label class="container">Vegan
-      <input type="checkbox" name="topping" value="Vegan">
-      </label> -->
+      <input type="radio" name="topping" value="Fish">Fish<br>
+
       <br>
       <button type="submit" name="button">order up.</button>
     </form>
+
+    <p id="reciept">Hello! <span id="person-name"></span> thank your for your order of a <span id="pizza-size"></span> pizza with <span id="topping"></span> on top!
+    <strong>Your Total is</strong> $<span id="total"></span>. </p>
 
   </body>
 </html>
