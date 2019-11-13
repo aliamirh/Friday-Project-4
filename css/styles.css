@@ -4,3 +4,11 @@
 .container{
   float: left;
 }
+
+body{
+  background-color: #bee7e8;
+}
+h2 {
+  font-style: italic;
+  color: blue
+}
